@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 
 
-BOT_TOKEN = "8493131536:AAEFx_JMn6WX8oj1cgzT-MFM-ugDjQoKJHU"
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 DEFAULT_SAVE_PATH = "tiktok_videos"
 MAX_FILE_SIZE = 50 * 1024 * 1024  
 
